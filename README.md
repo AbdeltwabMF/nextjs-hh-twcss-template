@@ -1,7 +1,7 @@
-# A Next.js Template for Dapp Developer
+# A Next.js Template for Dapp Developers
 
 
-## Start development server
+## Start the development server
 
 ```bash
 npm run dev
@@ -15,6 +15,13 @@ npm run build
 ```
 
 
+## Start the production build
+
+```bash
+npm run start
+```
+
+
 ## Run the tests
 
 ```bash
@@ -22,17 +29,16 @@ npm run test
 ```
 
 
-## Deploy the app to vercel
+## Deploy the app to `vercel`
 
-for Preview deployment:
+Preview deployment:
 
 ```bash
 vercel
 ```
 
-for Production deployment:
+Production deployment:
 
-```bash
 ```bash
 vercel --prod
 ```

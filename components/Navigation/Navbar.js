@@ -6,12 +6,12 @@ export default function Navbar () {
       <div className={styles.main + ' navbar bg-base-100'}>
         <div className='navbar-start'>
           <div className='dropdown'>
-            <label tabindex='0' className='btn btn-ghost lg:hidden'>
-              <svg xmlns='http://www.w3.org/2000/svg' className='w-5 h-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 6h16M4 12h8m-8 6h16' /></svg>
+            <label tabIndex='0' className='btn btn-ghost lg:hidden'>
+              <svg xmlns='http://www.w3.org/2000/svg' className='w-5 h-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M4 6h16M4 12h8m-8 6h16' /></svg>
             </label>
-            <ul tabindex='0' className='p-2 mt-3 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52'>
+            <ul tabIndex='0' className='p-2 mt-3 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52'>
               <li><a>Item 1</a></li>
-              <li tabindex='0'>
+              <li tabIndex='0'>
                 <a className='justify-between'>
                   Parent
                   <svg className='fill-current' xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><path d='M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z' /></svg>
@@ -29,7 +29,7 @@ export default function Navbar () {
         <div className='hidden navbar-center lg:flex'>
           <ul className='p-0 menu menu-horizontal'>
             <li><a>Item 1</a></li>
-            <li tabindex='0'>
+            <li tabIndex='0'>
               <a>
                 Parent
                 <svg className='fill-current' xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24'><path d='M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z' /></svg>
@@ -49,12 +49,12 @@ export default function Navbar () {
             <svg className='fill-current w-9 h-9 swap-off' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z' /></svg>
           </label>
           <div className='mr-3 dropdown dropdown-end'>
-            <label tabindex='0' className='btn btn-ghost btn-circle avatar'>
+            <label tabIndex='0' className='btn btn-ghost btn-circle avatar'>
               <div className='w-10 rounded-full'>
                 <img src='https://api.lorem.space/image/face?hash=60857' />
               </div>
             </label>
-            <ul tabindex='0' className='p-2 mt-3 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52'>
+            <ul tabIndex='0' className='p-2 mt-3 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52'>
               <li>
                 <a className='justify-between'>
                   Profile

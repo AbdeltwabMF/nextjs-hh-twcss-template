@@ -1,0 +1,9 @@
+.navDropdown {
+	margin: 0;
+	position: absolute;
+	transform: translate(972px, 1057px);
+}
+
+.main {
+	box-shadow: 2px 0px 0 2px;
+}

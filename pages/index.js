@@ -1,14 +1,17 @@
 import Head from 'next/head'
+import Navbar from '../components/Navigation/Navbar'
 
 export default function Home () {
   return (
-    <div className='flex flex-col items-center justify-center min-h-screen py-2'>
+    <>
       <Head>
         <title>Create Next App</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className='flex flex-col items-center justify-center flex-1 w-full px-20 text-center'>
+      <Navbar />
+
+      <main className='flex flex-col items-center justify-center flex-1 w-full px-20 mt-8 text-center'>
         <h1 className='text-6xl font-bold'>
           Welcome to{' '}
           <a className='text-blue-600' href='https://nextjs.org'>
@@ -18,12 +21,12 @@ export default function Home () {
 
         <p className='mt-3 text-2xl'>
           Get started by editing{' '}
-          <code className='p-3 font-mono text-lg bg-gray-100 rounded-md'>
+          <code className='p-3 font-mono text-lg bg-gray-900 rounded-xl'>
             pages/index.js
           </code>
         </p>
 
-        <div className='flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full'>
+        <div className='flex flex-wrap justify-around max-w-4xl mt-6 sm:w-full'>
           <a
             href='https://nextjs.org/docs'
             className='p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600'
@@ -66,7 +69,7 @@ export default function Home () {
         </div>
       </main>
 
-      <footer className='flex items-center justify-center w-full h-24 border-t'>
+      <footer className='flex items-center justify-center w-full h-12 mt-4 border-t'>
         <a
           className='flex items-center justify-center'
           href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
@@ -77,6 +80,6 @@ export default function Home () {
           <img src='/vercel.svg' alt='Vercel Logo' className='h-4 ml-2' />
         </a>
       </footer>
-    </div>
+    </>
   )
 }
